@@ -24,11 +24,12 @@ else b=false;
 }
 
 void fanc3(int arr[10][10]){
-    int x=0;
+    
     int i;
 int j;
 scanf(" %d",&i);
 scanf(" %d",&j);
+int x=arr[i][j];
 for (int k = 0; k < 10; k++)
 {
     if (arr[i][k]+arr[k][j]<x)
