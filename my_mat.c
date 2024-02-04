@@ -17,16 +17,7 @@ int i;
 int j;
 scanf(" %d",&i);
 scanf(" %d",&j);
-for (int k = 0; k < 10; k++)
-{
-    if (arr[i][k]+arr[k][j]<x)
-    {
-        x=arr[i][k]+arr[k][j];
-    }
-    
-}
-
-
+x=arr[i][j];
 if(x!=0){b=true;;}
 else b=false;
  printf(" %d",b);
