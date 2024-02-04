@@ -18,9 +18,9 @@ int j;
 scanf(" %d",&i);
 scanf(" %d",&j);
 x=arr[i][j];
-if(x!=0){b=true;;}
-else b=false;
- printf(" %d",b);
+if(x!=0){printf("true");}
+else printf("false");
+ 
 }
 
 void fanc3(int arr[10][10]){
