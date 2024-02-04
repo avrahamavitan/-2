@@ -11,15 +11,13 @@ for(int i=0;i<10;i++){
 }
 }
 void fanc2(int arr[10][10]){
-    bool b=false;
-int x=0;
 int i;
 int j;
 scanf(" %d",&i);
 scanf(" %d",&j);
-x=arr[i][j];
-if(x!=0){printf("true");}
-else printf("false");
+int x=arr[i][j];
+if(x!=0){printf("true/n");}
+else printf("false/n");
  
 }
 
@@ -38,6 +36,6 @@ for (int k = 0; k < 10; k++)
     }
     
 }
-if(x!=0){printf(" %d", x);}
-else printf(" %d", -1);
+if(x!=0){printf(" %d/n", x);}
+else printf(" %d/n", -1);
 }
