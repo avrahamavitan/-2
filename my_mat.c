@@ -30,8 +30,8 @@ void fanc3(int arr[10][10]){
         
     }
     for(int k=0;k<10;k++){
-        for (int i=1;i<10;i++){
-             for(int j=1;j<10;j++){
+        for (int i=0;i<10;i++){
+             for(int j=0;j<10;j++){
                 if (arr1[i][k]+arr1[k][j]<arr1[i][j]){
                     arr1[i][j]=arr1[i][k]+arr1[k][j];
                 }
