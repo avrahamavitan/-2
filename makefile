@@ -8,4 +8,4 @@ connections: main.o my_mat.o
 main.o:my_mat.h
 my_mat.o:my_mat.h
 clean:
-	rm -f *.a *.o *.so main
+	rm -f *.a *.o *.so connections
