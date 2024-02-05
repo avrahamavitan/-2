@@ -11,19 +11,18 @@ for(int i=0;i<10;i++){
 }
 }
 void fanc2(int arr[10][10]){
-    printf("\n");
 int i;
 int j;
 scanf(" %d",&i);
 scanf(" %d",&j);
 int x=arr[i][j];
-if(x!=0){printf("true");}
-else printf("false");
+if(x!=0){printf("True\n");}
+else printf("False\n");
  
 }
 
 void fanc3(int arr[10][10]){
-    printf("\n");
+
     int arr1[10][10];
     for(int i=0;i<10;i++){
         for(int j=0;j<10;j++){
@@ -34,8 +33,10 @@ void fanc3(int arr[10][10]){
     for(int k=0;k<10;k++){
         for (int i=0;i<10;i++){
              for(int j=0;j<10;j++){
+                if(arr1[i][k]!=0&&arr1[k][j]!=0){
                 if (arr1[i][k]+arr1[k][j]<arr1[i][j]){
                     arr1[i][j]=arr1[i][k]+arr1[k][j];
+                }
                 }
         
              }
@@ -52,6 +53,6 @@ scanf(" %d",&i);
 scanf(" %d",&j);
 int x=arr1[i][j];
 
-if(x!=0){printf("%d", x);}
-else printf("%d", -1);
+if(x!=0){printf("%d\n", x);}
+else printf("%d\n", -1);
 }
